@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="root@10.136.127.22:9022" autoUploadExternalChanges="true">
+    <serverData>
+      <paths name="root@10.136.127.22:9022">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/data/proj/msl" local="$PROJECT_DIR$" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/root/data/proj/msl/data" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

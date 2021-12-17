@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "../model/train_model.py", line 34, in <module>
+    m.train_lstm()
+  File "D:\0_project\multiSrcLog\model\lstm.py", line 53, in train_lstm
+    X_train, Y_train, X_test, Y_test = self.split_data()
+  File "D:\0_project\multiSrcLog\model\lstm.py", line 80, in split_data
+    X, Y = self.load_data(self.label)
+  File "D:\0_project\multiSrcLog\model\lstm.py", line 63, in load_data
+    with open(self.data_file) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../data/apache_error-clusterSeq.csv'
